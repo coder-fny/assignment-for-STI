@@ -1,0 +1,229 @@
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* 下拉内容 (默认隐藏) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid rgb(238,238,238);
+    border-top: none;
+}
+
+    /* 下拉菜单的链接 */
+    .dropdown-content a {
+        color: black;
+        text-decoration: none;
+        display: block;
+    }
+
+        /* 鼠标移上去后修改下拉菜单链接颜色 */
+        .dropdown-content a:hover {
+            background-color: #f1f1f1
+        }
+
+/* 在鼠标移上去后显示下拉菜单 */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+div {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+    height: 45px;
+    background-color: rgb(245,245,245);
+}
+
+.header-content {
+    margin-left: 10%;
+    width: 80%;
+    height: 100%;
+}
+
+.header li {
+    margin-left: 20px;
+    line-height: 45px;
+    font-size: 13px;
+    float: left;
+}
+
+.header a:hover {
+    color: red;
+}
+
+li {
+    list-style: none;
+    width: inherit;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.area-select {
+}
+
+    .area-select:hover {
+        background-color: #fff;
+    }
+
+a {
+    color: black;
+}
+
+header a:hover {
+    color: red;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.banner {
+    height: 152px;
+}
+
+.menu {
+    height: 38px;
+    background-color: rgb(255,138,0);
+}
+
+    .menu li {
+        color: white;
+        font-size: 15px;
+        line-height: 38px;
+        margin-left: 30px;
+    }
+
+.menu-header {
+    width: 230px;
+    text-align: center;
+    background-color: rgb(255,80,0);
+}
+
+.menu a {
+    color: white;
+}
+
+.menu li {
+    float: left;
+}
+
+.logo-image {
+    height: 100%;
+    float: left;
+}
+
+.search {
+    margin-left: 93px;
+    float: left;
+    margin-top: 60px;
+}
+
+.search-area {
+    width: 555px;
+    height: 40px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    outline: 0;
+    text-indent: 20px;
+    background-color: transparent;
+    border: 0;
+}
+
+.search-button {
+    width: 75px;
+    height: 46px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    outline: 0;
+    background-color: rgb(255,110,0);
+}
+
+    .search-button:hover {
+        background-color: rgb(255,110,0);
+    }
+
+    .search-button:link {
+        background-color: rgb(255,110,0);
+        outline: 0;
+    }
+
+    .search-button:focus {
+        background-color: rgb(255,110,0);
+        outline: 0;
+    }
+
+.icon-place {
+    border: 3px solid rgb(255,80,0);
+    float: left;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-right: none;
+}
+
+.section1 {
+    margin-left: 10%;
+    width: 230px;
+    height: 650px;
+    background-color: rgb(255,255,255);
+    margin-top: 0;
+    border: 2px solid rgb(225,80,0);
+    float: left;
+}
+
+    .section1 li {
+        height: 40px;
+        line-height: 40px;
+        font-size: 15px;
+        text-align: center;
+    }
+
+        .section1 li:hover {
+            background-color: rgb(255,228,220);
+            color: red;
+        }
+
+.section2 {
+    width: 862px;
+    height: 640px;
+    margin: 8px;
+    float: left;
+}
+
+.carousel {
+    width: 620px;
+    height: 410px;
+    float: left;
+}
+
+.ad img {
+    width: 100%;
+    margin-top: 15px;
+}
+
+.section3 {
+    width: 180px;
+    height: 200px;
+    background-color: aqua;
+    margin: 8px;
+    overflow: auto;
+    text-align:center;
+    font-size:x-large;
+    border:3px solid rgb(255,138,0);
+    background-color:rgb(255,255,255);
+    padding-top:40px;
+}
